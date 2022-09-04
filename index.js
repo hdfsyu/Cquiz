@@ -14,7 +14,7 @@ async function welcome(){
     await sleep();
     rainbowTitle.stop();
     console.log(`
-        ${chalk.bgYellow('HOW TO PLAY')}
+        ${chalk.bgRed('HOW TO PLAY')}
         I just became a process on your computer.
         I can kill anything I want.
         If you answer wrong, i'll ${chalk.redBright('kill')} the process of your entire ${chalk.red('system')}
